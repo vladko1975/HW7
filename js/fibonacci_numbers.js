@@ -27,8 +27,7 @@ function fibonacci() {
    f1 = fn;
   }
   x = x - 1;
-  alert('Element ' + x + ' in the Fibonacci sequence is ' + fn);
-  document.getElementById('text_output').innerHTML = 'Element ' + x + ' in the Fibonacci sequence is ' + fn;
+  document.getElementById('text_output').innerHTML += 'Element ' + x + ' in the Fibonacci sequence is ' + fn;
  }
 
  function fibo_neg(k) {
@@ -44,7 +43,6 @@ function fibonacci() {
    f1 = fn;
   }
   x = x + 1;
-  alert('Element ' + x + ' in the Fibonacci sequence is ' + fn);
-  document.getElementById('text_output').innerHTML = 'Element ' + x + ' in the Fibonacci sequence is ' + fn;
+  document.getElementById('text_output').innerHTML += 'Element ' + x + ' in the Fibonacci sequence is ' + fn;
  }
 }
